@@ -1,6 +1,15 @@
 # AI-Assisted Detection of Living-off-the-Land Ransomware Attacks
 ## Using Random Forest and LIME Explainability on Windows Sysmon Logs
 
+![Python](https://img.shields.io/badge/Python-3.13.5-blue?style=flat&logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.9.0-orange?style=flat&logo=scikit-learn)
+![LIME](https://img.shields.io/badge/LIME-0.2.0.1-green?style=flat)
+![Pandas](https://img.shields.io/badge/Pandas-3.0.3-purple?style=flat&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.11.0-red?style=flat)
+![University](https://img.shields.io/badge/University-Roehampton-darkblue?style=flat)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)
+
 **MSc Cybersecurity Project — University of Roehampton, 2026**
 
 ---
