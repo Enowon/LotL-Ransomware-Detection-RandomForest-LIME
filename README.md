@@ -10,7 +10,7 @@
 This project develops and evaluates an AI-assisted detection system for 
 identifying Living-off-the-Land (LotL) ransomware attacks in Windows Sysmon 
 log data. LotL attacks abuse legitimate, pre-installed Windows tools such as 
-PowerShell and WMI to carry out malicious activity — leaving no external files 
+PowerShell and WMI to carry out malicious activity, leaving no external files 
 to scan and no signatures to match. This makes them exceptionally difficult to 
 detect using conventional rule-based approaches.
 
@@ -19,7 +19,7 @@ CSU Ransomware Dataset, compared against Decision Tree and Logistic Regression
 as baseline classifiers, and evaluated against a feature-based Sigma rule 
 approximation. LIME (Local Interpretable Model-Agnostic Explanations) is applied 
 to generate interpretable, feature-level explanations for individual model 
-predictions — making the system practical and transparent for SOC analysts.
+predictions, making the system practical and transparent for SOC analysts.
 
 ---
 
