@@ -45,14 +45,14 @@ predictions, making the system practical and transparent for SOC analysts.
 ### Key Finding
 
 The Random Forest model achieved a recall of 99.37%, catching 16,075 out of 
-16,177 ransomware entries in the test set — missing only 102. The feature-based 
+16,177 ransomware entries in the test set, missing only 102. The feature-based 
 Sigma rule baseline achieved just 0.20% recall, missing 80,720 ransomware entries. 
 This represents a recall gap of 99.17 percentage points, confirming that machine 
 learning significantly outperforms rule-based detection for this task.
 
 LIME explainability analysis identified process_vs_parent_freq_ratio as the 
 single most important detection feature, corresponding to MITRE ATT&CK technique 
-T1059 (Command and Scripting Interpreter) — validating that the model is detecting 
+T1059 (Command and Scripting Interpreter), validating that the model is detecting 
 behaviourally meaningful attack patterns rather than statistical noise.
 
 ---
