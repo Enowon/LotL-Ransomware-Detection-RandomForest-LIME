@@ -42,6 +42,18 @@ predictions, making the system practical and transparent for SOC analysts.
 | Sigma Rules (Strict) | 77.12% | 85.34% | 0.20% | 0.40% |
 | Sigma Rules (Loosened) | 75.26% | 44.46% | 31.95% | 37.18% |
 
+### Key Finding
+
+The Random Forest model achieved a recall of 99.37%, catching 16,075 out of 
+16,177 ransomware entries in the test set — missing only 102. The feature-based 
+Sigma rule baseline achieved just 0.20% recall, missing 80,720 ransomware entries. 
+This represents a recall gap of 99.17 percentage points, confirming that machine 
+learning significantly outperforms rule-based detection for this task.
+
+LIME explainability analysis identified process_vs_parent_freq_ratio as the 
+single most important detection feature, corresponding to MITRE ATT&CK technique 
+T1059 (Command and Scripting Interpreter) — validating that the model is detecting 
+behaviourally meaningful attack patterns rather than statistical noise.
 ---
 
 ## Dataset
